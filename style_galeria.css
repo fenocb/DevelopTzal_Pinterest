@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 10px;
+}
+
+img{
+    margin-top:5px;
+    width: 100%;
+    border-radius: 20px;
+}
+img:hover{
+
+}
+
+
+.row{
+    display:flex;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.column{
+    flex: 14.28%;
+    padding:5px;
+}
+
