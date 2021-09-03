@@ -1,0 +1,42 @@
+body {
+  min-height: 80rem;
+  padding-top: 5.5rem;
+}
+
+.btn, .buscar{
+	border-radius: 25px;
+	margin: 5px;
+}
+
+
+.btn:hover{
+		
+		background-color: #E5E8E8;
+}
+
+.active:hover{
+		
+		background-color: black;
+}
+
+.iconos{
+	border-radius: 50px;
+	color: grey;
+}
+
+
+.icono-buscar{
+	position: relative;
+	margin-top: 16px;
+}
+
+
+.buscar{
+	background-color: #D5DBDB;
+}
+
+
+i{
+	font-size: 23px; 
+
+}
