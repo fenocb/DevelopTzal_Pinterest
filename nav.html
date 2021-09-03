@@ -1,42 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="./Sources/css/styles.css">
-	<title>Pinterest</title>
-</head>
-<body>
-	
-	<nav class="navbar navbar-light bg-light sticky-top " id="navbar-pinterest">
-		<div class="container-fluid shadow-sm ">
-			<div class="col-1 rounded-cirlce">
-				<a class="navbar-brand rounded-circle" id="pinterest-icon"  href="https://www.pinterest.com.mx">
-					<img src="./Sources/Iconos/pinterest.png" class="img-fluid rounded-circle" alt="">
-				  </a>
-			</div>
-		  
-		  <div class="col-1 rounded-pill"><a href="#" class="nav-link active">Inicio</a></div>
-		  <div class="col-1 rounded-pill"><a href="#" class="nav-link">Hoy</a></div>
-		  <div class="col-6">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
-		  <input class="finder form-control"  type="search" placeholder=" Buscar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Bootstrap Iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Pinterest</title>
+
+    <link rel="stylesheet" href="./Sources/css/style.css">
+
+  </head>
+  <body>
+
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+		  <div class="container-fluid">
+		    	<a class="navbar-brand" href="#">
+					  <img src="./Sources/Iconos/pinterest.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+				</a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			     	<span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    		<div class="navbar-nav container-fluid">
+		    			
+	    				<a class="btn btn-dark active" role="button">Inicio</a>
+						<a class="btn" role="button"><b>Hoy</b></a>
+	    			
+    					<span class="bi bi-search icono-buscar"></span>
+						<input type="text" class="form-control buscar" aria-label="Search" placeholder="Buscar">
+	    				
+				      	<a class="btn  iconos" href="#">
+			              <i class="bi bi-bell-fill" role="img" aria-label="Notifications"></i>
+			            </a>
+			            <a class="btn  iconos" href="#">
+			              <i class="bi bi-chat-dots-fill"></i>
+			            </a>
+			            <a class="btn iconos" href="#">
+			              <i class="bi bi-person-circle"></i>
+			            </a>
+			             <a class="btn" href="#">
+			              <i class="bi bi-chevron-down"></i>
+			            </a>
+			        
+		        	</div>
+			     </div>
+		    </div>
 		  </div>
-		  
-		 
-			<div id="notifications" class="col-1  rounded-circle"><img class="img-fluid" src="./Sources/Iconos/notificacion.png" alt=""></div>
-			<div id="message" class="col-1 rounded-circle"> <img class="img-fluid rounded-circle" src="./Sources/Iconos/chat.png"  alt=""></div>
-			<div id="profile-img" class="col-1 rounded-circle"><img class="img-fluid rounded-circle" src="./Sources/Iconos/usuario.png"  alt=""></div>
-			<!--<div class="rounded"><img class="rounded" width="400" height="400" src="./Sources/Imagen/4guitarra.jpg" alt=""></div>-->
-			
-			
-		</div>
-		
-	  </nav>
-	  
-		<main class="container-fluid">
+	</nav>
+
+  
+	<main class="container">
+		<div class="row">
 			
 			<h1>EL CONTENIDO VA AQUI</h1>  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet velit aut at hic, dolorem eum blanditiis iure dolores ex reprehenderit vitae, ipsum laudantium illum soluta! Tempore consectetur rem architecto quidem.
 			Deleniti quo consequatur quisquam necessitatibus, quia facere alias itaque similique esse sint accusamus distinctio fugiat facilis iusto neque totam? Tempora et perferendis quam animi, nisi incidunt debitis laborum quae doloremque.
@@ -87,16 +106,13 @@
 			Tempora enim fugit minus distinctio impedit reiciendis quo expedita quasi? Voluptatum quibusdam alias id rerum obcaecati ab harum dignissimos vero! Corporis doloremque neque fuga quo esse ut perferendis illum cumque.
 			Facilis, commodi cumque rerum aut velit quas? Soluta dolorum porro, veniam quis quas alias repellat numquam totam perspiciatis rem distinctio fugiat enim velit ea dignissimos dolor hic, dolorem id quae.
 			Tenetur odio voluptates et cumque labore. Doloremque earum nostrum, sequi voluptas consequuntur nam voluptatibus recusandae voluptatem, quo libero quam! Voluptatem mollitia adipisci vitae ullam possimus. Quibusdam deleniti tenetur aut velit.
-			Deleniti quidem sit hic, expedita esse a mollitia omnis aspernatur, quae harum corporis ducimus quam odit iure. Animi provident fugit doloremque atque vel totam blanditiis, labore in soluta esse ipsam.</main>
-	  
-	  
-	  
-<<<<<<< HEAD
-</body>
-</html>
+			Deleniti quidem sit hic, expedita esse a mollitia omnis aspernatur, quae harum corporis ducimus quam odit iure. Animi provident fugit doloremque atque vel totam blanditiis, labore in soluta esse ipsam.
+
+		</div>
+	  	
+	</main>
 
 
-=======
->>>>>>> 220c34297f4110c22bc1d650acf0dd3cbf8f159c
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
 </html>
