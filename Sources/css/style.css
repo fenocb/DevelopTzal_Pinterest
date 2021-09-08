@@ -3,14 +3,13 @@ body {
   padding-top: 5.5rem;
 }
 
-.btn, .buscar{
+.btn, .finder{
 	border-radius: 25px;
 	margin: 5px;
 }
 
 
 .btn:hover{
-		
 		background-color: #E5E8E8;
 }
 
@@ -19,7 +18,7 @@ body {
 		background-color: black;
 }
 
-.iconos{
+.iconos > a{
 	border-radius: 50px;
 	color: grey;
 }
@@ -28,11 +27,12 @@ body {
 .icono-buscar{
 	position: relative;
 	margin-top: 16px;
+	/*margin-right: -30px;*/
 }
 
 
-.buscar{
-	background-color: #D5DBDB;
+.finder{
+	background-color: #EAEAEA;
 }
 
 

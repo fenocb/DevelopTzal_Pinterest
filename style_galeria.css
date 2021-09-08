@@ -12,19 +12,51 @@ img{
     width: 100%;
     border-radius: 20px;
 }
+
 img:hover{
 
 }
 
+.card-image {
+    margin-top: 15px;
+}
 
-.row{
+.row-row{
     display:flex;
     margin-right: 3%;
     margin-left: 3%;
 }
 
-.column{
+.column-column{
     flex: 14.28%;
     padding:5px;
+   
 }
 
+.opciones, .compartir{
+    position: relative;
+    bottom: 50px;
+    background-color: #E5E8E8;
+    float: right;
+}
+
+
+.guardar{
+    position: absolute;
+    right: 5px;
+    margin: 15px;
+}
+
+.card-image i{
+    font-size: 15px; 
+    border-radius: 35px;
+}
+
+
+.iconosCard{
+    visibility: hidden;
+}
+
+.card-image:hover > .iconosCard{
+    visibility: visible;
+}
