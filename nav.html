@@ -1,641 +1,772 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="./Sources/Iconos/favicon.ico" type="image/x-icon">  
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+	
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- Bootstrap Iconos -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <title>Pinterest</title>
-
+ 
     <link rel="stylesheet" href="./Sources/css/style.css">
-    <link rel="stylesheet" href="style_galeria.css">
-
+	<link rel="stylesheet" href="style_galeria.css"><!-- Checar orden -->
+		<!-- Icono -->
+		<link href='https://css.gg/software-upload.css' rel='stylesheet'>
+		<script src="https://kit.fontawesome.com/de66825bb9.js" crossorigin="anonymous"></script>
   </head>
   <body>
 
 	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
-		  <div class="container-fluid">
-			    <a class="navbar-brand" href="https://www.pinterest.com/" target="_blank">
-						  <img src="./Sources/Iconos/pinterest.png" alt="pinterest" width="30" height="30" >
-					</a>
-			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			     	<span class="navbar-toggler-icon"></span>
-			    </button>
-			    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    		<div class="navbar-nav container-fluid">
-		    			
-	    				
-							<button type="button" class="btn btn-dark active">Inicio</button>
-							<button type="button" class="btn btn-light"><b>Hoy</b></button>
-		    		
-
-	    				<span class="bi bi-search icono-buscar"></span>
-							<input type="text" class="form-control finder" aria-label="Search" placeholder="    Buscar">
-						
-	    					<div class="iconos">
-					      	<a class="btn" href="#">
-				              <i class="bi bi-bell-fill" role="img" aria-label="Notifications"></i>
-				          </a>
-								</div>
-								<div class="iconos">
-				          <a class="btn" href="#">
-				              <i class="bi bi-chat-dots-fill"></i>
-				          </a>
-				        </div>
-				        <div class="iconos">
-				          <a class="btn" href="#">
-				            <i class="bi bi-person-circle"></i>
-				          </a>
-				        </div>
-			             <a class="btn" href="#">
-			              <i class="bi bi-chevron-down"></i>
-			            </a>
-			        
-		        	</div>
-			     </div>
-		    </div>
-		  </div>
-	</nav>
-	<br>
-	<br>
-	<main >
-
-		<div class="row-row">
-
-			<div class="column-column">
-				<div class="card">
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/marco.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a> 
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/Ciudad.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/Depresion.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/Espada.png" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/9.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/2.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/3.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-				</div>
-			</div>
-<!-- 
-			<div class="column-column">
-				<div class="card">
-					<img src="./Sources/Imagen/2.jpg" alt="2">
-					<img src="./Sources/Imagen/3.jpg" alt="2">
-					<img src="./Sources/Imagen/4.jpg" alt="2">
-					<img src="./Sources/Imagen/5.jpg" alt="2">
-					<img src="./Sources/Imagen/6.jpg" alt="2">
-				</div>
-			</div>
-
-			<div class="column-column">
-				<div class="card">
-					<img src="./Sources/Imagen/7.jpg" alt="2">
-					<img src="./Sources/Imagen/8.jpg" alt="2">
-					<img src="./Sources/Imagen/9.jpg" alt="2">
-					<img src="./Sources/Imagen/10.jpg" alt="2">
-					<img src="./Sources/Imagen/6.jpg" alt="2">
-				</div>
-			</div>	
-
-
-			<div class="column-column">
-				<div class="card">
-					<img src="./Sources/Imagen/3.jpg" alt="2">
-					<img src="./Sources/Imagen/4.jpg" alt="2">
-					<img src="./Sources/Imagen/8.jpg" alt="2">
-					<img src="./Sources/Imagen/5.jpg" alt="2">
-					<img src="./Sources/Imagen/7.jpg" alt="2">
-				</div>
-			</div>	
-
-			-->
-			<div class="column-column">
-				<div class="card">
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/1fotoPersonal.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/6.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/3.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/2.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/10.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/8.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-				</div>
-			</div>	
-			<div class="column-column">
-				<div class="card">
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/Isaac 6.jpeg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/Isaac 2.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/Isaac 3.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/Isaac 4.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/Marco.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/Isaac 2.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/7.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-				</div>
-			</div>	
-			<div class="column-column">
-				<div class="card">
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/celina.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/9.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/1fotoPersonal.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/3.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/4.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/10.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/5.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
+		<div class="container-fluid">
+			<a class="navbar-brand" href="https://www.pinterest.com/" target="_blank">
+				<img src="./Sources/Iconos/pinterest.png" alt="pinterest" width="30" height="30" >
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav container-fluid">
+					<button type="button" class="btn btn-dark active">Inicio</button>
+					<button type="button" class="btn btn-light"><b>Hoy</b></button>
 					
-				</div>
-			</div>	
-			<div class="column-column">
-				<div class="card">
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/9.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
+					<input type="search" class="form-control finder" aria-label="Search" placeholder="&#xf002; Buscar">
+					<div class="iconos">
+						<a class="btn" href="#">
+							<i class="bi bi-bell-fill" role="img" aria-label="Notifications"></i>
+						</a>
 					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/7.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
+					<div class="iconos">
+						<a class="btn" href="#">
+							<i class="bi bi-chat-dots-fill"></i>
+						</a>
 					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/9.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
+					<div class="iconos">
+						<a class="btn" href="#">
+							<i class="bi bi-person-circle"></i>
+						</a>
 					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/2.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/10.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/3.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/1.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-				<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/5.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-				</div>
-			</div>	
-
-
-
-
-				<div class="column-column">
-				<div class="card">
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/10.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/isaac 2.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/isaac 3.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/isaac 4.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/Isaac 6.jpeg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/2.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
-					<div class="card-image">
-							<a class="btn btn-danger guardar iconosCard" href="#">
-				      Guardar
-					    </a>
-							<img src="./Sources/Imagen/9.jpg" alt="2">
-							<a class="btn iconos opciones iconosCard" href="#">
-					        <i class="bi bi-three-dots"></i> 
-					    </a>
-					    <a class="btn iconos compartir iconosCard" href="#">
-					        <i class="bi bi-box-arrow-up"></i>
-					    </a>
-					</div>
+					<a class="btn" href="#">
+						<i class="bi bi-chevron-down"></i>
+					</a>
 				</div>
 			</div>
-
 		</div>
-	  	
+	</nav>
+
+
+	<main>
+		<div class="row">
+			<div class="column">
+				<div class="card-image">
+					<img src="./Sources/Imagen/isaac 1.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"> theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Isaac 6.jpeg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Isaac 3.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Isaac 4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Isaac 5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Isaac 6.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Isaac 1" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Isaac 3.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Isaac 4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Isaac 5.jpg.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Isaac 6.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card-image">
+					<img src="./Sources/Imagen/8.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"> theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/3.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/1fotoPersonal.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/3.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/6.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/7.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/8.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/9.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/10.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/3.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card-image">
+					<img src="./Sources/Imagen/Marco.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"> theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Suena.png" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Depresion.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Espada.png" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Ciudad.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card-image">
+					<img src="./Sources/Imagen/images - 2021-09-02T192723.764.jpeg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"> theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/celina.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Cascada.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/1.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/10.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/9.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/7.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/3.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/1.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/7.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/10.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/1.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card-image">
+					<img src="./Sources/Imagen/Code.png" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"> theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Bitcoin.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Ethereum.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/1.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/10.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/9.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/8.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/7.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/6.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/3.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card-image">
+					<img src="./Sources/Imagen/10.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"> theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/9.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/8.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/7.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/6.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/9.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/8.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/7.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/6.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/3.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card-image">
+					<img src="./Sources/Imagen/Code.png" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"> theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Bitcoin.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/Ethereum.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/1.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/10.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/9.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/8.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/7.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/6.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/5.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/4.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+				<div class="card-image">
+					<img src="./Sources/Imagen/3.jpg" alt="2">
+					<a class="guardar" href="#">Guardar</a>
+					<a href="#" class="link" title="Lorem ipsum Lorem Lorem"></i>&nbsp; &nbsp; theartofani...</a>
+					<a href="#" class="compartir"><i class="gg-software-upload"></i></a>
+					<a href="#" class="opciones-pin"><img src="https://img.icons8.com/ios-glyphs/10/000000/ellipsis.png"/></a>
+				</div>
+			</div>
+		</div>
 	</main>
 
 

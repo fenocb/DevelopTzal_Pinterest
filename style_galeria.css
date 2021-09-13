@@ -2,61 +2,174 @@
     box-sizing: border-box;
 }
 
+
 body{
+    width: 100%;
     margin: 0px;
-    padding: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
 }
+
 
 img{
-    margin-top:5px;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 2em;
 }
 
-img:hover{
 
-}
-
-.card-image {
-    margin-top: 15px;
-}
-
-.row-row{
+/*En una fila se meten las columnas, este es el contenedor de las columnas*/
+.row{
     display:flex;
-    margin-right: 3%;
-    margin-left: 3%;
+    flex-wrap: wrap;
+    margin-right: 4em;
+    margin-left: 4em;
 }
 
-.column-column{
-    flex: 14.28%;
-    padding:5px;
-   
+/*Columnas con imágenes*/
+.column{
+    flex: 20%;
+    padding: .8em;
 }
 
-.opciones, .compartir{
+
+
+/*Contenedor de las imagenes y botones*/
+.card-image {
+    display: inline-block;
     position: relative;
-    bottom: 50px;
-    background-color: #E5E8E8;
-    float: right;
+    margin-top: .5em;
 }
 
+/*Se aplica hover a la imagen*/
+img:hover{ /* CAMBIADO, ERA HOVER AL CARD */
+    cursor: zoom-in;
+    filter: brightness(60%);
+ }
 
+ /*BOTONES*/
 .guardar{
-    position: absolute;
-    right: 5px;
-    margin: 15px;
-}
-
-.card-image i{
-    font-size: 15px; 
-    border-radius: 35px;
-}
-
-
-.iconosCard{
+    top:.8em;
+    right:.8em;
+    text-align: center;
     visibility: hidden;
+    position:absolute;
+    font-size: 1.7em;
+    font-weight: bold;
+    color:white;
+    background-color: rgb(223, 10, 10);
+    border-radius: 3em;
+    text-decoration: solid;
+    padding: .8em;
 }
 
-.card-image:hover > .iconosCard{
+
+.link{
+    visibility: hidden;
+    position:absolute;
+    font-size: 1.5em;
+    font-weight: bold;
+    bottom: 1em;
+    left: 1em;
+    text-decoration: solid;
+    color: black;
+    background-color: rgb(180, 180, 180);
+    border-radius: 1em;
+    padding: .5em;
+}
+
+.compartir{
+    visibility: hidden;
+    position:absolute;
+    font-size: 1.5em;
+    bottom: 1em;
+    left:10em;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(180, 180, 180);
+    border-radius: 20em;
+    padding: .5em;
+}
+
+.opciones-pin{
+    visibility: hidden;
+    position:absolute;
+    font-size: 1.5em;
+    bottom: 1em;
+    right: 1em;
+    text-decoration-style: none;
+    background-color: rgb(180, 180, 180);
+    border-radius: 40em;
+    padding: .5em;
+}
+
+/*MOSTRAR BOTONES AL HACER HOVER EN EL CONTENEDOR CARD-IMG*/
+.card-image:hover .guardar{
     visibility: visible;
+}
+
+.card-image:hover .link{
+    visibility: visible;
+}
+
+.card-image:hover .compartir{
+    visibility: visible;
+}
+
+.card-image:hover .opciones-pin{
+    visibility: visible;
+}
+
+
+/*AL HACER HOVER A BOTONES*/
+.guardar:hover{
+    background-color: rgb(148, 3, 3);
+}
+
+
+.link:hover{
+    background-color: white;
+}
+
+.compartir:hover{
+    background-color: white;
+}
+
+.opciones-pin:hover{
+    background-color: white;  
+}
+
+
+@media screen and (min-width: 721px) and (max-width:1366px) {
+    .column{
+        flex: 20%;
+        padding: .8em;
+    } 
+
+} /*Fin del media query min-width: 721*/
+
+
+
+
+@media screen and (min-width: 1367px) {
+    .column{
+        flex: 14.28%;
+        padding: .8em;
+    } 
+}
+
+
+@media screen and (max-width: 719px) {
+    .column{
+        flex: 25%;
+        padding: .8em;
+    } 
+}
+
+.buscador{
+    display:inline-block;
+    position:relative;
+}
+
+input{
+    font-family: FontAwesome,Verdana, Geneva, Tahoma, sans-serif;
 }
